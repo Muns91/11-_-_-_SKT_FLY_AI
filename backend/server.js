@@ -5,7 +5,7 @@ const iconv = require('iconv-lite');
 const app = express();
 const port = 3000;
 
-const apiKey = 'your ID';
+const apiKey = 'your API KEY';
 
 app.get('/products', async (req, res) => {
   const keyword = req.query.keyword || '';
